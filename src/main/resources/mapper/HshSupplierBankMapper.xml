@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSupplierBankMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSupplierBank">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="SUPPLIER_ID" jdbcType="BIGINT" property="supplierId" />
+    <result column="RECEIVING_BANK" jdbcType="VARCHAR" property="receivingBank" />
+    <result column="OUR_BANK" jdbcType="VARCHAR" property="ourBank" />
+    <result column="CARD_BANK" jdbcType="VARCHAR" property="cardBank" />
+    <result column="PAYEE" jdbcType="VARCHAR" property="payee" />
+    <result column="MOBILE" jdbcType="VARCHAR" property="mobile" />
+    <result column="PRODUCT_TIME" jdbcType="TIMESTAMP" property="productTime" />
+  </resultMap>
+</mapper>

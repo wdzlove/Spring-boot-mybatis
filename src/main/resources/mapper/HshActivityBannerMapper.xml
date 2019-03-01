@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshActivityBannerMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshActivityBanner">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="INFO" jdbcType="VARCHAR" property="info" />
+    <result column="IMGS" jdbcType="VARCHAR" property="imgs" />
+    <result column="SORT" jdbcType="INTEGER" property="sort" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="LINK" jdbcType="VARCHAR" property="link" />
+    <result column="COLUMN_1" jdbcType="VARCHAR" property="column1" />
+    <result column="COLUMN_2" jdbcType="INTEGER" property="column2" />
+    <result column="COLUMN_3" jdbcType="BIGINT" property="column3" />
+  </resultMap>
+</mapper>

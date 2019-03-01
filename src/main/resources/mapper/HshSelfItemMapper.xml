@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSelfItemMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSelfItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="item_id" jdbcType="BIGINT" property="itemId" />
+    <result column="item_name" jdbcType="VARCHAR" property="itemName" />
+    <result column="item_img" jdbcType="VARCHAR" property="itemImg" />
+    <result column="sell_point" jdbcType="VARCHAR" property="sellPoint" />
+    <result column="item_price" jdbcType="DECIMAL" property="itemPrice" />
+    <result column="item_integral" jdbcType="BIGINT" property="itemIntegral" />
+    <result column="item_unit" jdbcType="VARCHAR" property="itemUnit" />
+    <result column="post_fee" jdbcType="BIGINT" property="postFee" />
+    <result column="item_num" jdbcType="BIGINT" property="itemNum" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="share_num" jdbcType="BIGINT" property="shareNum" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="item_eval" jdbcType="VARCHAR" property="itemEval" />
+    <result column="item_rebate" jdbcType="BIGINT" property="itemRebate" />
+    <result column="cus_num_1" jdbcType="VARCHAR" property="cusNum1" />
+    <result column="cus_num_2" jdbcType="VARCHAR" property="cusNum2" />
+    <result column="cus_num_3" jdbcType="VARCHAR" property="cusNum3" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshWalletMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshWallet">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="CUSTOMER_ID" jdbcType="BIGINT" property="customerId" />
+    <result column="BURSE" jdbcType="DOUBLE" property="burse" />
+    <result column="SCORE" jdbcType="DOUBLE" property="score" />
+    <result column="AMOUNT_IN_BURSE" jdbcType="DOUBLE" property="amountInBurse" />
+    <result column="AMOUNT_IN_SCORE" jdbcType="DOUBLE" property="amountInScore" />
+    <result column="AMOUNT_OUT_BURSE" jdbcType="DOUBLE" property="amountOutBurse" />
+    <result column="AMOUNT_OUT_SCORE" jdbcType="INTEGER" property="amountOutScore" />
+    <result column="COLUMN1" jdbcType="VARCHAR" property="column1" />
+    <result column="COLUMN2" jdbcType="INTEGER" property="column2" />
+    <result column="COLUMN3" jdbcType="BIGINT" property="column3" />
+  </resultMap>
+</mapper>

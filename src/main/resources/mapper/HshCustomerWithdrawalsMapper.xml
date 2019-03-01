@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshCustomerWithdrawalsMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshCustomerWithdrawals">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="customer_id" jdbcType="BIGINT" property="customerId" />
+    <result column="money" jdbcType="DOUBLE" property="money" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="trade_no" jdbcType="VARCHAR" property="tradeNo" />
+    <result column="uuid" jdbcType="VARCHAR" property="uuid" />
+    <result column="success_time" jdbcType="TIMESTAMP" property="successTime" />
+    <result column="bank_number" jdbcType="VARCHAR" property="bankNumber" />
+    <result column="bank_name" jdbcType="VARCHAR" property="bankName" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+  </resultMap>
+</mapper>

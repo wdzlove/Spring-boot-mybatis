@@ -1,0 +1,29 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    # 指定包
+    com.wdz.boot.helloboot: DEBUG
+  # 指定日志目录
+  file: logs/log.log
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://hostName:port/hsh_yyyy_test?characterEncoding=utf-8&amp;allowMultiQueries=true&amp;autoReconnect=true&amp;useSSL=false&amp;testOnBorrow=true&amp;failOverReadOnly=false
+      username: username
+      password: username
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      # MySQL 8.x: com.mysql.cj.jdbc.Driver
+      test-on-borrow: true
+      driver-class-name: com.mysql.cj.jdbc.Driver #com.mysql.jdbc.Driver
+      # 使用druid数据源
+      type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  # 实体类的存放路径，如：com.funtl.hello.spring.boot.entity
+  type-aliases-package: com.wdz.boot.helloboot.entity
+  mapper-locations: classpath:mapper/*.xml

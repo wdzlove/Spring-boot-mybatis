@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.EngineCostMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.EngineCost">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="engine_name" jdbcType="VARCHAR" property="engineName" />
+    <result column="device_type" jdbcType="INTEGER" property="deviceType" />
+    <result column="cost_name" jdbcType="VARCHAR" property="costName" />
+    <result column="cost_value" jdbcType="REAL" property="costValue" />
+    <result column="last_update" jdbcType="TIMESTAMP" property="lastUpdate" />
+    <result column="comment" jdbcType="VARCHAR" property="comment" />
+  </resultMap>
+</mapper>

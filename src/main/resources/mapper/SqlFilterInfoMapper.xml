@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.SqlFilterInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.SqlFilterInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="ITEM_ID" jdbcType="BIGINT" property="itemId" />
+    <result column="CUR_CONC" jdbcType="BIGINT" property="curConc" />
+    <result column="MAX_CONC" jdbcType="BIGINT" property="maxConc" />
+    <result column="KEY_NUM" jdbcType="BIGINT" property="keyNum" />
+    <result column="KEY_STR" jdbcType="VARCHAR" property="keyStr" />
+  </resultMap>
+</mapper>

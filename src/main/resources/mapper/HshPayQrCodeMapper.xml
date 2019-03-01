@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshPayQrCodeMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshPayQrCode">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="code_id" jdbcType="BIGINT" property="codeId" />
+    <result column="code_address" jdbcType="VARCHAR" property="codeAddress" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="user_mobile" jdbcType="VARCHAR" property="userMobile" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="cus_num_1" jdbcType="VARCHAR" property="cusNum1" />
+    <result column="cus_num_2" jdbcType="VARCHAR" property="cusNum2" />
+    <result column="cus_num_3" jdbcType="VARCHAR" property="cusNum3" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.ZipkinSpansMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.ZipkinSpans">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="trace_id_high" jdbcType="BIGINT" property="traceIdHigh" />
+    <result column="trace_id" jdbcType="BIGINT" property="traceId" />
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="parent_id" jdbcType="BIGINT" property="parentId" />
+    <result column="debug" jdbcType="BIT" property="debug" />
+    <result column="start_ts" jdbcType="BIGINT" property="startTs" />
+    <result column="duration" jdbcType="BIGINT" property="duration" />
+  </resultMap>
+</mapper>

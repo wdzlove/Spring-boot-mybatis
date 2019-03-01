@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshStationMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshStation">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="station_id" jdbcType="BIGINT" property="stationId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="featurs" jdbcType="VARCHAR" property="featurs" />
+    <result column="popularity" jdbcType="INTEGER" property="popularity" />
+    <result column="pre_avg" jdbcType="INTEGER" property="preAvg" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="latitude" jdbcType="DOUBLE" property="latitude" />
+    <result column="longitude" jdbcType="DOUBLE" property="longitude" />
+    <result column="is_del" jdbcType="TINYINT" property="isDel" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="offline_time" jdbcType="TIMESTAMP" property="offlineTime" />
+    <result column="online_time" jdbcType="TIMESTAMP" property="onlineTime" />
+    <result column="station_img" jdbcType="VARCHAR" property="stationImg" />
+    <result column="station_license" jdbcType="VARCHAR" property="stationLicense" />
+    <result column="station_quality" jdbcType="VARCHAR" property="stationQuality" />
+    <result column="cus_num_one" jdbcType="VARCHAR" property="cusNumOne" />
+    <result column="cus_num_two" jdbcType="VARCHAR" property="cusNumTwo" />
+  </resultMap>
+</mapper>

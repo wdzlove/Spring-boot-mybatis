@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.IntegralRulesMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.IntegralRules">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="integral_name" jdbcType="VARCHAR" property="integralName" />
+    <result column="integral" jdbcType="DOUBLE" property="integral" />
+    <result column="Introduction" jdbcType="VARCHAR" property="introduction" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="cus_num_1" jdbcType="VARCHAR" property="cusNum1" />
+    <result column="cus_num_2" jdbcType="VARCHAR" property="cusNum2" />
+    <result column="cus_num_3" jdbcType="VARCHAR" property="cusNum3" />
+  </resultMap>
+</mapper>

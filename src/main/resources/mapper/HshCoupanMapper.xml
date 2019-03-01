@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshCoupanMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshCoupan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="coupan_id" jdbcType="BIGINT" property="coupanId" />
+    <result column="coupan_type_id" jdbcType="BIGINT" property="coupanTypeId" />
+    <result column="coupan_name" jdbcType="VARCHAR" property="coupanName" />
+    <result column="coupan_min" jdbcType="BIGINT" property="coupanMin" />
+    <result column="coupan_max" jdbcType="BIGINT" property="coupanMax" />
+    <result column="coupan_img" jdbcType="VARCHAR" property="coupanImg" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="cus_num_1" jdbcType="VARCHAR" property="cusNum1" />
+    <result column="cus_num_2" jdbcType="VARCHAR" property="cusNum2" />
+    <result column="cus_num_3" jdbcType="VARCHAR" property="cusNum3" />
+    <result column="cus_num_4" jdbcType="VARCHAR" property="cusNum4" />
+    <result column="cus_num_5" jdbcType="VARCHAR" property="cusNum5" />
+  </resultMap>
+</mapper>

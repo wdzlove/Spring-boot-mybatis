@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshActivityOrderMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshActivityOrder">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="trade_no" jdbcType="VARCHAR" property="tradeNo" />
+    <result column="activity_id" jdbcType="BIGINT" property="activityId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="pay_mode" jdbcType="INTEGER" property="payMode" />
+    <result column="receiver_mobile" jdbcType="VARCHAR" property="receiverMobile" />
+    <result column="receiver_name" jdbcType="VARCHAR" property="receiverName" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="pay_time" jdbcType="TIMESTAMP" property="payTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="get_start_time" jdbcType="TIMESTAMP" property="getStartTime" />
+    <result column="get_end_time" jdbcType="TIMESTAMP" property="getEndTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="get_num" jdbcType="BIGINT" property="getNum" />
+    <result column="order_status" jdbcType="TINYINT" property="orderStatus" />
+    <result column="customer_id" jdbcType="BIGINT" property="customerId" />
+    <result column="last_name" jdbcType="VARCHAR" property="lastName" />
+    <result column="cus_num_1" jdbcType="VARCHAR" property="cusNum1" />
+    <result column="cus_num_2" jdbcType="BIGINT" property="cusNum2" />
+    <result column="cus_num_3" jdbcType="VARCHAR" property="cusNum3" />
+  </resultMap>
+</mapper>

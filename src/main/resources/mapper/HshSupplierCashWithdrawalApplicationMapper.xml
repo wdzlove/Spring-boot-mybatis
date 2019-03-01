@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSupplierCashWithdrawalApplicationMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSupplierCashWithdrawalApplication">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="SUPPLIER_ID" jdbcType="BIGINT" property="supplierId" />
+    <result column="RECEIVE_NAME" jdbcType="VARCHAR" property="receiveName" />
+    <result column="BANK_NAME" jdbcType="VARCHAR" property="bankName" />
+    <result column="BANK_CARD" jdbcType="VARCHAR" property="bankCard" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="AMOUNT_OF_MONEY" jdbcType="DOUBLE" property="amountOfMoney" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="OPERATION_USER_ID" jdbcType="BIGINT" property="operationUserId" />
+    <result column="FINISH_TIME" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="BRANCH_BANK_NAME" jdbcType="VARCHAR" property="branchBankName" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSupplierWalletLogMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSupplierWalletLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="SUPPLIER_ID" jdbcType="BIGINT" property="supplierId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="CHANGE_MONEY" jdbcType="DOUBLE" property="changeMoney" />
+    <result column="FRONT_USER_ID" jdbcType="BIGINT" property="frontUserId" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="ORDER_ID" jdbcType="BIGINT" property="orderId" />
+    <result column="IN_OR_OUT" jdbcType="INTEGER" property="inOrOut" />
+    <result column="COLUMN_1" jdbcType="VARCHAR" property="column1" />
+    <result column="COLUMN_2" jdbcType="INTEGER" property="column2" />
+    <result column="COLUMN_3" jdbcType="BIGINT" property="column3" />
+  </resultMap>
+</mapper>

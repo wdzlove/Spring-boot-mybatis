@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.InnodbTempTableInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.InnodbTempTableInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="TABLE_ID" jdbcType="BIGINT" property="tableId" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="N_COLS" jdbcType="INTEGER" property="nCols" />
+    <result column="SPACE" jdbcType="INTEGER" property="space" />
+    <result column="PER_TABLE_TABLESPACE" jdbcType="VARCHAR" property="perTableTablespace" />
+    <result column="IS_COMPRESSED" jdbcType="VARCHAR" property="isCompressed" />
+  </resultMap>
+</mapper>

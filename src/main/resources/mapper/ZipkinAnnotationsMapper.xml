@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.ZipkinAnnotationsMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.ZipkinAnnotations">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="trace_id_high" jdbcType="BIGINT" property="traceIdHigh" />
+    <result column="trace_id" jdbcType="BIGINT" property="traceId" />
+    <result column="span_id" jdbcType="BIGINT" property="spanId" />
+    <result column="a_key" jdbcType="VARCHAR" property="aKey" />
+    <result column="a_type" jdbcType="INTEGER" property="aType" />
+    <result column="a_timestamp" jdbcType="BIGINT" property="aTimestamp" />
+    <result column="endpoint_ipv4" jdbcType="INTEGER" property="endpointIpv4" />
+    <result column="endpoint_port" jdbcType="SMALLINT" property="endpointPort" />
+    <result column="endpoint_service_name" jdbcType="VARCHAR" property="endpointServiceName" />
+    <result column="a_value" jdbcType="LONGVARBINARY" property="aValue" />
+    <result column="endpoint_ipv6" jdbcType="BINARY" property="endpointIpv6" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSelfOrderMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSelfOrder">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="shipping_code" jdbcType="VARCHAR" property="shippingCode" />
+    <result column="shipping_name" jdbcType="VARCHAR" property="shippingName" />
+    <result column="payment" jdbcType="DECIMAL" property="payment" />
+    <result column="payment_type" jdbcType="TINYINT" property="paymentType" />
+    <result column="post_fee" jdbcType="VARCHAR" property="postFee" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="payment_time" jdbcType="TIMESTAMP" property="paymentTime" />
+    <result column="close_time" jdbcType="TIMESTAMP" property="closeTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="consign_time" jdbcType="TIMESTAMP" property="consignTime" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="buyer_message" jdbcType="VARCHAR" property="buyerMessage" />
+  </resultMap>
+</mapper>

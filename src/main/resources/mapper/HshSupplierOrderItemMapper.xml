@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSupplierOrderItemMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSupplierOrderItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="ORDER_ID" jdbcType="BIGINT" property="orderId" />
+    <result column="GOODS_ID" jdbcType="BIGINT" property="goodsId" />
+    <result column="SALES_NUM" jdbcType="INTEGER" property="salesNum" />
+    <result column="PLAN_PRICE" jdbcType="DOUBLE" property="planPrice" />
+    <result column="ACT_PRICE" jdbcType="DOUBLE" property="actPrice" />
+    <result column="COLUMN_1" jdbcType="VARCHAR" property="column1" />
+    <result column="COLUMN_2" jdbcType="INTEGER" property="column2" />
+    <result column="COLUMN_3" jdbcType="BIGINT" property="column3" />
+  </resultMap>
+</mapper>

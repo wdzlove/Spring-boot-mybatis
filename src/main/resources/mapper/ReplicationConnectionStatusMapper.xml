@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.ReplicationConnectionStatusMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.ReplicationConnectionStatus">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="CHANNEL_NAME" jdbcType="CHAR" property="channelName" />
+    <result column="GROUP_NAME" jdbcType="CHAR" property="groupName" />
+    <result column="SOURCE_UUID" jdbcType="CHAR" property="sourceUuid" />
+    <result column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <result column="SERVICE_STATE" jdbcType="CHAR" property="serviceState" />
+    <result column="COUNT_RECEIVED_HEARTBEATS" jdbcType="BIGINT" property="countReceivedHeartbeats" />
+    <result column="LAST_HEARTBEAT_TIMESTAMP" jdbcType="TIMESTAMP" property="lastHeartbeatTimestamp" />
+    <result column="LAST_ERROR_NUMBER" jdbcType="INTEGER" property="lastErrorNumber" />
+    <result column="LAST_ERROR_MESSAGE" jdbcType="VARCHAR" property="lastErrorMessage" />
+    <result column="LAST_ERROR_TIMESTAMP" jdbcType="TIMESTAMP" property="lastErrorTimestamp" />
+    <result column="RECEIVED_TRANSACTION_SET" jdbcType="LONGVARCHAR" property="receivedTransactionSet" />
+  </resultMap>
+</mapper>

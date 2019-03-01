@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshSupplierOrderMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshSupplierOrder">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="ORDER_NO" jdbcType="VARCHAR" property="orderNo" />
+    <result column="USER_ID" jdbcType="BIGINT" property="userId" />
+    <result column="SUPPLIER_ID" jdbcType="BIGINT" property="supplierId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="PAY_STATUS" jdbcType="INTEGER" property="payStatus" />
+    <result column="ORDER_STATUS" jdbcType="INTEGER" property="orderStatus" />
+    <result column="PAY_TYPE" jdbcType="INTEGER" property="payType" />
+    <result column="PAY_TIME" jdbcType="TIMESTAMP" property="payTime" />
+    <result column="ORDER_MONEY" jdbcType="DOUBLE" property="orderMoney" />
+    <result column="INTEGRAL" jdbcType="DOUBLE" property="integral" />
+    <result column="FINISH_TIME" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="COLUMN_1" jdbcType="VARCHAR" property="column1" />
+    <result column="COLUMN_2" jdbcType="INTEGER" property="column2" />
+    <result column="COLUMN_3" jdbcType="BIGINT" property="column3" />
+    <result column="HAGGLE_PRICE" jdbcType="DOUBLE" property="hagglePrice" />
+    <result column="CONFIRM_TIME" jdbcType="TIMESTAMP" property="confirmTime" />
+    <result column="TRADE_NO" jdbcType="VARCHAR" property="tradeNo" />
+    <result column="ADDRESS_ID" jdbcType="BIGINT" property="addressId" />
+    <result column="PARENT_ID" jdbcType="BIGINT" property="parentId" />
+    <result column="ACT_PAYMENT" jdbcType="DOUBLE" property="actPayment" />
+    <result column="PLATFORM_REVENUE" jdbcType="DOUBLE" property="platformRevenue" />
+    <result column="BUY_USER_NAME" jdbcType="VARCHAR" property="buyUserName" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="BUY_USER_PHONE" jdbcType="VARCHAR" property="buyUserPhone" />
+    <result column="COUPONID" jdbcType="VARCHAR" property="couponid" />
+    <result column="DELIVERY" jdbcType="INTEGER" property="delivery" />
+    <result column="DELIVERY_TIME" jdbcType="TIMESTAMP" property="deliveryTime" />
+    <result column="balance" jdbcType="DOUBLE" property="balance" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshMessageMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshMessage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="type" jdbcType="BIGINT" property="type" />
+    <result column="send_id" jdbcType="BIGINT" property="sendId" />
+    <result column="receive_id" jdbcType="BIGINT" property="receiveId" />
+    <result column="state" jdbcType="BIGINT" property="state" />
+    <result column="img_path" jdbcType="VARCHAR" property="imgPath" />
+    <result column="column1" jdbcType="VARCHAR" property="column1" />
+    <result column="column2" jdbcType="BIGINT" property="column2" />
+    <result column="column3" jdbcType="TIMESTAMP" property="column3" />
+    <result column="send_time" jdbcType="TIMESTAMP" property="sendTime" />
+    <result column="RELEVANCEID" jdbcType="BIGINT" property="relevanceid" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>

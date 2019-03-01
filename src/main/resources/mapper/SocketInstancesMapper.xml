@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.SocketInstancesMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.SocketInstances">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="EVENT_NAME" jdbcType="VARCHAR" property="eventName" />
+    <result column="OBJECT_INSTANCE_BEGIN" jdbcType="BIGINT" property="objectInstanceBegin" />
+    <result column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <result column="SOCKET_ID" jdbcType="INTEGER" property="socketId" />
+    <result column="IP" jdbcType="VARCHAR" property="ip" />
+    <result column="PORT" jdbcType="INTEGER" property="port" />
+    <result column="STATE" jdbcType="CHAR" property="state" />
+  </resultMap>
+</mapper>

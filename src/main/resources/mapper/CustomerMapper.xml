@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.CustomerMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.Customer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="OPEN_ID" jdbcType="VARCHAR" property="openId" />
+    <result column="NICKNAME" jdbcType="VARCHAR" property="nickname" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="ADD_TIME" jdbcType="TIMESTAMP" property="addTime" />
+    <result column="IMG" jdbcType="VARCHAR" property="img" />
+    <result column="INVITE_CODE" jdbcType="VARCHAR" property="inviteCode" />
+    <result column="RECEIVABLES_CODE" jdbcType="VARCHAR" property="receivablesCode" />
+    <result column="COLUMN2" jdbcType="INTEGER" property="column2" />
+    <result column="SUPERIOR_ID" jdbcType="BIGINT" property="superiorId" />
+    <result column="GENDER" jdbcType="VARCHAR" property="gender" />
+    <result column="AREA" jdbcType="VARCHAR" property="area" />
+    <result column="INVITATION_TIME" jdbcType="TIMESTAMP" property="invitationTime" />
+    <result column="RESTAURANT_ID" jdbcType="BIGINT" property="restaurantId" />
+    <result column="RULE_ID" jdbcType="BIGINT" property="ruleId" />
+    <result column="ROLE" jdbcType="INTEGER" property="role" />
+  </resultMap>
+</mapper>

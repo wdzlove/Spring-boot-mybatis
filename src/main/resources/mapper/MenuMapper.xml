@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.MenuMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.Menu">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="ID" jdbcType="BIGINT" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="PARENT_ID" jdbcType="BIGINT" property="parentId" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="PAGE_URL" jdbcType="VARCHAR" property="pageUrl" />
+    <result column="LEVEL" jdbcType="INTEGER" property="level" />
+    <result column="SORT" jdbcType="INTEGER" property="sort" />
+  </resultMap>
+</mapper>

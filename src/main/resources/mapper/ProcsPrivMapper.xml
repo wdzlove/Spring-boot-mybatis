@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.ProcsPrivMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.ProcsPriv">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="Host" jdbcType="CHAR" property="host" />
+    <result column="Db" jdbcType="CHAR" property="db" />
+    <result column="User" jdbcType="CHAR" property="user" />
+    <result column="Routine_name" jdbcType="CHAR" property="routineName" />
+    <result column="Routine_type" jdbcType="CHAR" property="routineType" />
+    <result column="Grantor" jdbcType="CHAR" property="grantor" />
+    <result column="Proc_priv" jdbcType="CHAR" property="procPriv" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+  </resultMap>
+</mapper>

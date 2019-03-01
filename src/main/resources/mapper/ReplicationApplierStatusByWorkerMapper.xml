@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.ReplicationApplierStatusByWorkerMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.ReplicationApplierStatusByWorker">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="CHANNEL_NAME" jdbcType="CHAR" property="channelName" />
+    <result column="WORKER_ID" jdbcType="BIGINT" property="workerId" />
+    <result column="THREAD_ID" jdbcType="BIGINT" property="threadId" />
+    <result column="SERVICE_STATE" jdbcType="CHAR" property="serviceState" />
+    <result column="LAST_SEEN_TRANSACTION" jdbcType="CHAR" property="lastSeenTransaction" />
+    <result column="LAST_ERROR_NUMBER" jdbcType="INTEGER" property="lastErrorNumber" />
+    <result column="LAST_ERROR_MESSAGE" jdbcType="VARCHAR" property="lastErrorMessage" />
+    <result column="LAST_ERROR_TIMESTAMP" jdbcType="TIMESTAMP" property="lastErrorTimestamp" />
+  </resultMap>
+</mapper>

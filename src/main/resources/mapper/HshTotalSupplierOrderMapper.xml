@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wdz.boot.helloboot.mapper.HshTotalSupplierOrderMapper">
+  <resultMap id="BaseResultMap" type="com.wdz.boot.helloboot.entity.HshTotalSupplierOrder">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="order_money" jdbcType="DOUBLE" property="orderMoney" />
+    <result column="integral" jdbcType="DOUBLE" property="integral" />
+    <result column="haggle" jdbcType="DOUBLE" property="haggle" />
+    <result column="act_payment" jdbcType="DOUBLE" property="actPayment" />
+    <result column="balance" jdbcType="DOUBLE" property="balance" />
+    <result column="buy_user_id" jdbcType="BIGINT" property="buyUserId" />
+    <result column="trade_no" jdbcType="VARCHAR" property="tradeNo" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="order_status" jdbcType="INTEGER" property="orderStatus" />
+    <result column="pay_status" jdbcType="INTEGER" property="payStatus" />
+    <result column="delivery" jdbcType="INTEGER" property="delivery" />
+    <result column="buy_user_name" jdbcType="VARCHAR" property="buyUserName" />
+    <result column="select_station" jdbcType="VARCHAR" property="selectStation" />
+    <result column="buy_user_address" jdbcType="VARCHAR" property="buyUserAddress" />
+    <result column="buy_user_phone" jdbcType="VARCHAR" property="buyUserPhone" />
+    <result column="pay_time" jdbcType="TIMESTAMP" property="payTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="finish_time" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="column_1" jdbcType="VARCHAR" property="column1" />
+    <result column="column_2" jdbcType="VARCHAR" property="column2" />
+    <result column="column_3" jdbcType="INTEGER" property="column3" />
+    <result column="column_4" jdbcType="INTEGER" property="column4" />
+    <result column="column_5" jdbcType="BIGINT" property="column5" />
+    <result column="column_6" jdbcType="BIGINT" property="column6" />
+  </resultMap>
+</mapper>
